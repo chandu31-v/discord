@@ -8,7 +8,7 @@ import Dashboard from "./Dashboard"
 function App() {
   return (
     <>
-      <div>
+      <div className='max-w-screen'>
         <Routes>
           <Route path="/" element={<Start />} />
           <Route exact path="/Login" element={<Login />} />
